@@ -1,20 +1,26 @@
-OS2Web Ofir Job Integration
+OS2Web AD Integration Example
 ==============================
 
 Description
 -----------
-This module provides a feed of jobs from the website Ofir.dk.
-Includes an feed importer into a contenttype, and shows them via an view.
+This module provides an example of how to setup an os2web ldap connection.
 
 Dependencies
 -----------
-- date
-- features
-- feeds
-- filefield_sources
-- image
+- ctools
+- ldap
+-- ldap_authentication
+-- ldap_authorization
+-- ldap_authorization_drupal_role
+-- ldap_servers
+- ldap_sso
 - strongarm
-- views
+
+Configuration
+-----------
+All important fields must be changed:
+- LDAP Server : admin/config/people/ldap/servers
+- Auth : admin/config/people/ldap/authorization
 
 Installation
 -----------

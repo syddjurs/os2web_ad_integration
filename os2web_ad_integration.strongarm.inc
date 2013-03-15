@@ -16,7 +16,7 @@ function os2web_ad_integration_strongarm() {
   $strongarm->name = 'ldap_authentication_conf';
   $strongarm->value = array(
     'sids' => array(
-      'ldap_syddjursnet' => 'ldap_syddjursnet',
+      'ldap_example' => 'ldap_example',
     ),
     'authenticationMode' => 1,
     'loginConflictResolve' => 2,
