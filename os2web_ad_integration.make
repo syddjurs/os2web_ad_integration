@@ -26,5 +26,6 @@ projects[strongarm][version] = "2.0"
 projects[ldap][subdir] = "contrib"
 projects[ldap][version] = "2.0-beta3"
 
+projects[ldap_sso][module]
 projects[ldap_sso][subdir] = "contrib"
 projects[ldap_sso][version] = "1.1"
