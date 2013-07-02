@@ -65,7 +65,7 @@ function os2web_ad_integration_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ldap_servers_encryption';
-  $strongarm->value = '6';
+  $strongarm->value = 10;
   $export['ldap_servers_encryption'] = $strongarm;
 
   $strongarm = new stdClass();
