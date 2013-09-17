@@ -25,3 +25,4 @@ projects[strongarm][version] = "2.0"
 ; LDAP
 projects[ldap][subdir] = "contrib"
 projects[ldap][version] = "1.0-beta10"
+projects[ldap][patch][loginUIDescriptionText] = "http://drupal.org/files/loginUIDescriptionText.patch"
